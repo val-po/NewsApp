@@ -13,6 +13,10 @@
 		A3E03F0F2661B10900975906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E03F0D2661B10900975906 /* Main.storyboard */; };
 		A3E03F112661B10B00975906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E03F102661B10B00975906 /* Assets.xcassets */; };
 		A3E03F142661B10B00975906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E03F122661B10B00975906 /* LaunchScreen.storyboard */; };
+		A3E03F1D26622BC600975906 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E03F1C26622BC600975906 /* APICaller.swift */; };
+		A3E03F20266252C300975906 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E03F1F266252C300975906 /* NewsTableViewCell.swift */; };
+		A3E03F252662E7A800975906 /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E03F232662E7A800975906 /* Screenshot1.png */; };
+		A3E03F262662E7A800975906 /* Screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3E03F242662E7A800975906 /* Screenshot2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A3E03F102661B10B00975906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3E03F132661B10B00975906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3E03F152661B10B00975906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E03F1C26622BC600975906 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		A3E03F1F266252C300975906 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		A3E03F232662E7A800975906 /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
+		A3E03F242662E7A800975906 /* Screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				A3E03F072661B10900975906 /* AppDelegate.swift */,
 				A3E03F092661B10900975906 /* SceneDelegate.swift */,
 				A3E03F0B2661B10900975906 /* ViewController.swift */,
+				A3E03F1F266252C300975906 /* NewsTableViewCell.swift */,
 				A3E03F0D2661B10900975906 /* Main.storyboard */,
 				A3E03F102661B10B00975906 /* Assets.xcassets */,
 				A3E03F122661B10B00975906 /* LaunchScreen.storyboard */,
 				A3E03F152661B10B00975906 /* Info.plist */,
+				A3E03F222662E79200975906 /* Screenshots */,
+				A3E03F1C26622BC600975906 /* APICaller.swift */,
 			);
 			path = NewsApp;
+			sourceTree = "<group>";
+		};
+		A3E03F222662E79200975906 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				A3E03F232662E7A800975906 /* Screenshot1.png */,
+				A3E03F242662E7A800975906 /* Screenshot2.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +144,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E03F262662E7A800975906 /* Screenshot2.png in Resources */,
 				A3E03F142661B10B00975906 /* LaunchScreen.storyboard in Resources */,
+				A3E03F252662E7A800975906 /* Screenshot1.png in Resources */,
 				A3E03F112661B10B00975906 /* Assets.xcassets in Resources */,
 				A3E03F0F2661B10900975906 /* Main.storyboard in Resources */,
 			);
@@ -139,7 +161,9 @@
 			files = (
 				A3E03F0C2661B10900975906 /* ViewController.swift in Sources */,
 				A3E03F082661B10900975906 /* AppDelegate.swift in Sources */,
+				A3E03F20266252C300975906 /* NewsTableViewCell.swift in Sources */,
 				A3E03F0A2661B10900975906 /* SceneDelegate.swift in Sources */,
+				A3E03F1D26622BC600975906 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
